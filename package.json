@@ -1,0 +1,33 @@
+{
+  "name": "lametric-rain-alert",
+  "version": "0.0.0",
+  "description": "lametric rain alert app",
+  "main": "index.js",
+  "dependencies": {
+    "dark-sky": "^1.1.4",
+    "envc": "^2.5.0",
+    "exists": "^1.0.1",
+    "geo2zip": "^1.0.9",
+    "micro": "^9.3.2",
+    "normalize-slashes": "^1.0.1",
+    "us-zips": "^2.0.2"
+  },
+  "devDependencies": {
+    "jest": "^23.4.2",
+    "prettier": "^1.14.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjmehta/lametric-rain-alert.git"
+  },
+  "author": "Tejesh Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmehta/lametric-rain-alert/issues"
+  },
+  "homepage": "https://github.com/tjmehta/lametric-rain-alert#readme"
+}
